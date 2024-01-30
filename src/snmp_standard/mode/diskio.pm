@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -304,7 +304,7 @@ __END__
 
 =head1 MODE
 
-Check read/write I/O disks (bytes per secondes, IOPs). 
+Check read/write I/O disks (bytes per second, IOPs). 
 
 =over 8
 
@@ -324,7 +324,7 @@ Can be: 'read', 'write', 'read-iops', 'write-iops',
 
 =item B<--device>
 
-Set the device (number expected) ex: 1, 2,... (empty means 'check all devices').
+Set the device (number expected) example: 1, 2,... (empty means 'check all devices').
 
 =item B<--name>
 

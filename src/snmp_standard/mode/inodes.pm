@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -191,7 +191,7 @@ Critical threshold in percent.
 
 =item B<--diskpath>
 
-Set the disk path (number expected) ex: 1, 2,... (empty means 'check all disks path').
+Set the disk path (number expected) example: 1, 2,... (empty means 'check all disks path').
 
 =item B<--name>
 
@@ -209,7 +209,7 @@ Allows to use regexp non case-sensitive (with --regexp).
 
 Modify the disk path name displayed by using a regular expression.
 
-Eg: adding --display-transform-src='dev' --display-transform-dst='run'  will replace all occurrences of 'dev' with 'run'
+Example: adding --display-transform-src='dev' --display-transform-dst='run'  will replace all occurrences of 'dev' with 'run'
 
 =item B<--filter-device>
 

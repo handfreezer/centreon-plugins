@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -201,7 +201,7 @@ Check job queues.
 
 =item B<--jobq>
 
-JOBQ selection. Eg: --jobq="QGPL:QBASE" --jobq="QGPL:QPGMR"
+JOBQ selection. Example: --jobq="QGPL:QBASE" --jobq="QGPL:QPGMR"
 
 =item B<--unknown-status>
 
@@ -215,7 +215,7 @@ You can use the following variables: %{status}, %{name}, %{library}
 
 =item B<--critical-status>
 
-Define the conditions to match for the status to be CRITICAL (Default: '%{status} =~ /HELD/i').
+Define the conditions to match for the status to be CRITICAL (default: '%{status} =~ /HELD/i').
 You can use the following variables: %{status}, %{name}, %{library}
 
 =item B<--warning-*> B<--critical-*>

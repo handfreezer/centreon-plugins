@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -1540,18 +1540,18 @@ Collect and compute SQL datas.
 
 =item B<--config>
 
-config used (Required).
+config used (required).
 Can be a file or json content.
 
 =item B<--filter-selection>
 
 Filter selections.
-Eg: --filter-selection='name=test'
+Example: --filter-selection='name=test'
 
 =item B<--constant>
 
 Add a constant.
-Eg: --constant='warning=30' --constant='critical=45'
+Example: --constant='warning=30' --constant='critical=45'
 
 =back
 

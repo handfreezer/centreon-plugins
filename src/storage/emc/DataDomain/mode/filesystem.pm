@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -220,7 +220,7 @@ Critical threshold in percent
 
 =item B<--filesystem>
 
-Set the filesystem (number expected) ex: 1, 2,... (empty means 'check all filesystems').
+Set the filesystem (number expected) example: 1, 2,... (empty means 'check all filesystems').
 
 =item B<--name>
 

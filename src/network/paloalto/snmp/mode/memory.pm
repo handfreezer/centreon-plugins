@@ -1,5 +1,5 @@
 #
-# Copyright 2023 Centreon (http://www.centreon.com/)
+# Copyright 2024 Centreon (http://www.centreon.com/)
 #
 # Centreon is a full-fledged industry-strength solution that meets
 # the needs in IT infrastructure and application monitoring for
@@ -59,7 +59,7 @@ Critical threshold.
 
 =item B<--units>
 
-Units of thresholds (Default: '%') ('%', 'B').
+Units of thresholds (default: '%') ('%', 'B').
 
 =item B<--free>
 
@@ -67,7 +67,7 @@ Thresholds are on free space left.
 
 =item B<--storage>
 
-Set the storage (number expected) ex: 1, 2,... (empty means 'check all storage').
+Set the storage (number expected) example: 1, 2,... (empty means 'check all storage').
 
 =item B<--name>
 
@@ -91,7 +91,7 @@ Display cache storage datas.
 
 =item B<--filter-storage-type>
 
-Filter storage types with a regexp (Default: '^(hrStorageRam|hrStorageFlashMemory)$').
+Filter storage types with a regexp (default: '^(hrStorageRam|hrStorageFlashMemory)$').
 
 =back
 
